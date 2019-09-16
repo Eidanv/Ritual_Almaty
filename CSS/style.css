@@ -176,7 +176,7 @@ html {
 	color: #9fa4af;
 }
 
-.Services {
+.contact {
 	display: flex;
 	justify-content: space-around;
 	align-items: stretch;
@@ -289,7 +289,51 @@ html {
 	margin: 1rem auto 2rem;
 }
 
+.contacts {
+	margin: 85px 0 75px 0;
+}
 
+.contacts h2 {
+	color: #4f4f6f;
+	font-size: 4rem;
+	font-weight: 500;
+	margin: 0;
+	text-align: center;
+}
+
+.line_yellow {
+	display: block;
+	width: 25%;
+	height: 1px;
+	background-color: #4f4f6f;
+	margin: 1rem auto;
+}
+
+.contact_item {
+	margin-top: 20px;
+}
+
+.contact_item img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    width: 55px;
+    text-align: center;
+}
+
+.contacts .contact_wrapper {
+	margin-top: 45px;
+
+}
+
+.contacts .contact_wrapper .contact_item {
+	display: inline-block;
+	vertical-align: top;
+
+	width: 200px;
+	text-align: center;
+}
+/*
 
 .contacts p {
 	font-size: 13px;
@@ -303,10 +347,7 @@ html {
 	text-align: center;
 }
 
-.about {
-	position: relative;
-	background: url(../img/Tamplate.jpg) no-repeat center;
-}
+/*
 /*
 .About {
 	padding: 15rem;
