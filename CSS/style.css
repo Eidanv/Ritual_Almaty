@@ -323,15 +323,30 @@ html {
 
 .contacts .contact_wrapper {
 	margin-top: 45px;
+	display: flex;
+	justify-content: space-around;
+}
 
+.contacts .contact_container {
+	width: 70%;
+	margin: 0 auto;
 }
 
 .contacts .contact_wrapper .contact_item {
 	display: inline-block;
 	vertical-align: top;
-
 	width: 200px;
 	text-align: center;
+}
+
+.contact_header {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.contacts .contact_descr {
+	margin-top: 20px;
+	font-size: 13px;
 }
 /*
 
@@ -355,7 +370,6 @@ html {
 	text-align: center;
 	background: url(../img/cta-bg.png) no-repeat center;
 	color: #fff;
-	
 }
 
 .wrap {
@@ -395,8 +409,6 @@ html {
 	cursor: pointer;
 }
 */
-
-
 
 .footer-wrap {
 	display: flex;
